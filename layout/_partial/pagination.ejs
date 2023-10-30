@@ -1,0 +1,8 @@
+<nav class="d-flex justify-content-center gap-3">
+    <% if (page.prev){ %>
+        <a class="call-to-action-button" type="button" href="<%- config.root %><%- page.prev_link %>">Previous</a>
+    <% } %>
+    <% if (page.next){ %>
+        <a class="call-to-action-button" type="button" href="<%- config.root %><%- page.next_link %>">Next</a>
+    <% } %>
+</nav>

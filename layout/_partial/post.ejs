@@ -1,0 +1,32 @@
+<div class="col-md-6 col-lg-4 mb-4">
+    <div class="post p-3">
+        <% if(item.cover) { %>
+            <a href="<%- config.root %><%- item.path %>">
+                <img src=<%= item.cover %> class="img-fluid rounded mb-3" alt="...">
+            </a>
+        <% } %>
+
+        <!-- Title -->
+        <h3 class="">
+            <b>
+                <a href="<%- config.root %><%- item.path %>" class="link-dark link-underline-opacity-0 link-underline-opacity-75-hover">
+                    <%- item.title %>
+                </a>
+            </b>
+        </h3>
+
+        <!-- Content -->
+        <div class="text-secondary">
+            <%- item.excerpt || item.content %>
+        </div>
+
+        <!-- Only display the Read More link if we are displaying an excerpt -->
+        <% if(item.excerpt) { %>
+            <p>
+                <a href="<%- config.root %><%- item.path %>" style="color: #d95e40;">
+                    <%= theme.excerpt_link %>
+                </a>
+            </p>
+        <% } %>
+    </div>
+</div>

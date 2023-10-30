@@ -1,0 +1,13 @@
+{
+  "name": "hexo-theme-elise",
+  "version": "1.0.0",
+  "description": "Elise theme for hexo",
+  "repository":"https://github.com/firatkiral/hexo-theme-elise.git",
+  "author": "Firat Kiral",
+  "keywords": [
+    "hexo",
+    "theme",
+    "landscape"
+  ],
+  "license": "MIT"
+}

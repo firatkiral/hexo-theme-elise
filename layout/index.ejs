@@ -1,0 +1,17 @@
+<!-- Sidebar -->
+<% if (theme.sidebar && theme.sidebar.enable){ %>
+    <aside class="col-md-6 col-lg-4 mb-4">
+        <%- partial('_partial/sidebar', {
+            image: theme.sidebar.image, 
+            header: theme.sidebar.header, 
+            text:theme.sidebar.text,
+            social: theme.sidebar.social
+        }) %>
+    </aside>
+<% } %>
+
+<% page.posts.each(function(item){ %>
+    <%- partial('_partial/post', {item: item}) %>
+<% }); %>
+
+<%- partial('_partial/pagination') %>

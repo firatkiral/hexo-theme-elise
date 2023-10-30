@@ -1,0 +1,24 @@
+<div id="carousel" class="carousel slide" data-bs-ride=<%= autoplay ? 'carousel' : '' %> >
+    <div class="carousel-indicators">
+        <% for (slide of slides){ %>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="<%= slides.indexOf(slide)%>" class="<%= slides.indexOf(slide) === 0 ? 'active' : '' %>" aria-current="true" aria-label="Slide <%= slides.indexOf(slide)%>"></button>
+        <% }; %>
+    </div>
+    <div class="carousel-inner">
+        <% for (slide of slides){ %>
+            <div class="carousel-item <%= slides.indexOf(slide) === 0 ? 'active' : '' %>" data-bs-interval=<%= interval ? interval : '10000' %>>
+                <img src=<%- slide %> class="d-block w-100" style="<%= height ? 'height: ' + height : '' %>">
+            </div>
+        <% }; %>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
