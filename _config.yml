@@ -22,7 +22,7 @@ sidebar:
   image: "https://source.unsplash.com/random/?profile"
   header: "About Us"
   text: "Elise is a free responsive theme for Hexo. It is based on Bootstrap 5 and it is built to be easy to use and beautiful to look at."
-  # social:
+  social:
   #   facebook: "/"
   #   tiktok: "/"
   #   twitter: "/"

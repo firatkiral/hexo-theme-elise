@@ -11,7 +11,7 @@
             <%- partial('_partial/carousel', {
                 autoplay: theme.carousel.autoplay, 
                 interval: theme.carousel.interval,
-                slides: theme.carousel.slides,
+                slides: theme.carousel.slides || [],
                 height: theme.carousel.height
             }) %>
         <% } %>
