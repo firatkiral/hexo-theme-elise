@@ -7,7 +7,7 @@ carousel:
   enable: true
   autoplay: true
   interval: 5000
-  slides: [https://source.unsplash.com/random, https://source.unsplash.com/random, https://source.unsplash.com/random, https://source.unsplash.com/random]
+  slides: [https://source.unsplash.com/random/?medium, https://source.unsplash.com/random/?design, https://source.unsplash.com/random/?office, https://source.unsplash.com/random/?editorial]
   height: 300px
 
 # Call to action settings
@@ -19,7 +19,7 @@ call_to_action:
 
 sidebar:
   enable: true
-  image: "https://source.unsplash.com/random"
+  image: "https://source.unsplash.com/random/?profile"
   header: "About Us"
   text: "Elise is a free responsive theme for Hexo. It is based on Bootstrap 5 and it is built to be easy to use and beautiful to look at."
   social:
