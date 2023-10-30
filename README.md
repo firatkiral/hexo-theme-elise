@@ -1,12 +1,12 @@
 # Elise
 
-![elise](firatkiral.github.io/hexo-theme-elise/images/elise.png)
+![elise](https://firatkiral.github.io/hexo-theme-elise/images/elise.png)
 
 [![NPM version](https://badge.fury.io/js/hexo-theme-landscape.svg)](https://www.npmjs.com/package/hexo-theme-elise)
 
 Elise theme for [Hexo].
 
-- [Preview](firatkiral.github.io/hexo-theme-elise/)
+- [Preview](https://firatkiral.github.io/hexo-theme-elise/)
 
 ## Installation
 
