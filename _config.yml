@@ -7,7 +7,7 @@ carousel:
   enable: true
   autoplay: true
   interval: 5000
-  slides: [https://source.unsplash.com/random/?medium, https://source.unsplash.com/random/?design, https://source.unsplash.com/random/?office, https://source.unsplash.com/random/?editorial]
+  slides: [https://source.unsplash.com/random/?wallpaper, https://source.unsplash.com/random/?design, https://source.unsplash.com/random/?office, https://source.unsplash.com/random/?editorial]
   height: 300px
 
 # Call to action settings
