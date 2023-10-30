@@ -23,15 +23,15 @@ sidebar:
   header: "About Us"
   text: "Elise is a free responsive theme for Hexo. It is based on Bootstrap 5 and it is built to be easy to use and beautiful to look at."
   social:
-  #   facebook: "/"
-  #   tiktok: "/"
-  #   twitter: "/"
-  #   instagram: "/"
-  #   linkedin: "/"
-  #   youtube: "/"
-  #   pinterest: "/"
-  #   github: "/"
-  #   email: "/"
+    facebook: ""
+    tiktok: ""
+    twitter: ""
+    instagram: ""
+    linkedin: ""
+    youtube: ""
+    pinterest: ""
+    github: ""
+    email: ""
   
 # Menu
 menu:
