@@ -4,7 +4,7 @@
 
 [![NPM version](https://badge.fury.io/js/hexo-theme-landscape.svg)](https://www.npmjs.com/package/hexo-theme-elise)
 
-Elise theme for [Hexo].
+Elise theme for [Hexo](https://hexo.io/)
 
 - [Preview](https://firatkiral.github.io/hexo-theme-elise/)
 
