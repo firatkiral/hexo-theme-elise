@@ -11,7 +11,15 @@
 <% } %>
 
 <% page.posts.each(function(item){ %>
-    <%- partial('_partial/post', {item: item}) %>
+    <% if (item.pinned) { %>
+        <%- partial('_partial/post', {item: item}) %>
+    <% } %>
+<% }); %>
+
+<% page.posts.each(function(item){ %>
+    <% if (!item.pinned) { %>
+        <%- partial('_partial/post', {item: item}) %>
+    <% } %>
 <% }); %>
 
 <%- partial('_partial/pagination') %>

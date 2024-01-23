@@ -106,11 +106,18 @@ excerpt_link: READ MORE
 
 You can simply add 'cover' property to the front-matter of your post.
 
+## Pinned Posts
+
+You can simply add 'pinned' property to the front-matter of your post. Pinned posts will be shown on the top of the homepage.
+
+## Example
+
 ``` yml
 ---
 title: Hello World
 date: 2021-01-01 00:00:00
 cover: https://source.unsplash.com/random
+pinned: true
 ---
 ```
 
